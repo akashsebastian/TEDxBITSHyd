@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <title>TEDxBITSHyderabad</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,800" rel="stylesheet">
+        <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    </head>
+    <body>
+
+        <div id="outerdiv">
+            <a style="display: none" id="scroll_top" href="#img-carousel"></a>
+            <a style="display: none" id="scroll_bottom" href="#events"></a>
+            <div id="blur_overlay"></div>
+            <!-- Navbar for larger displays like laptop displays -->
+            <header id="nav_head">
+                <nav>
+                    <div>
+                        <div id="logo_holder" href="http://www.tedxbitshyderabad.coml"><img class='logo' id="logo" src="img/logo/tedxbitshyderabad-tedx-bits-hyderabad.png"
+                        alt="TEDx"></div>
+                        <ul>
+                            <li><a href="http://www.tedxbitshyderabad.com">Home</a></li>
+                            <li><a href="2016.html">Archive</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <div id="logo_holder_mob"><img id="logo_mob" src="img/logo/tedxbitshyderabad-tedx-bits-hyderabad.png"
+        alt="Site Logo" ></div>
+        <!-- Mobile Navbar -->
+        <div class="container" id="outerdiv_mobile" style="width: calc(100% - 1px)">
+            <!-- Navbar for smaller displays like smartphones -->
+            <input id="toggle" type="checkbox">
+            <label class="toggle-container" for="toggle">
+                <span class="button button-toggle"></span>
+            </label>
+            
+            <!-- The nav menu -->
+            <nav class="nav">
+                <a class="nav-item" href="http://www.tedxbitshyderabad.com">Home</a>
+                <a class="nav-item" href="2016.html">Archive</a>
+            </nav>
+        </div>
+<div style="width: calc(100%-1px); height: 100vh;">
+          <section id="sponsors_container">
+              <h2 class="sponsors-head head">Our<span> Sponsors</span></h2>
+              <div id="sponsors_flex_container">
+                  <div id="title-spons" class="spons_type">
+
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.monsterindia.com/" target="_blank"><img src="img/spons/monster.png" class="spons_imgs" alt="Monster - Find Better"></a>
+                        </div>
+                        <p class="spons_type_text">Title Sponsor</p>
+                    </div>
+                  </div>
+                  <div id="co-title-spons" class="spons_type">
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.securx.in/" target="_blank"><img src="img/spons/securx.png" class="spons_imgs" alt="SECURX"></a>
+                        </div>
+                        <p class="spons_type_text">Co-Title Sponsor</p>
+                    </div>
+                   <!--  <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.greykernel.com/" target="_blank"><img src="img/prev_spons/greykernel.jpg" class="spons_imgs" alt="Grey Kernel"></a>
+                        </div>
+                        <p class="spons_type_text">Co-Title Sponsor</p>
+                    </div> -->
+                  </div>
+                  <!-- <div id="premium-partner" class="spons_type">
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.byndr.com/" target="_blank"><img src="img/prev_spons/ogimg.png" class="spons_imgs" alt="Byndr"></a>
+                        </div>
+                        <p class="spons_type_text">Premium Partner</p>
+
+                    </div>
+                  </div> -->
+                  
+                  <div id="associate-spons" class="spons_type">
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://prathibhabiotech.com/" target="_blank"><img src="img/spons/pratibha-biotech.jpg" class="spons_imgs" alt="Prathibha Biotech"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://caprusit.com/" target="_blank"><img src="img/spons/caprusit.png" class="spons_imgs" alt="Caprus IT"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+                        
+                    </div>
+                    
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://entodpharma.com/" target="_blank"><img src="img/spons/eiosys-entod.png" class="spons_imgs" alt="Entod Pharmaceuticals"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.chocolatehut.in/" target="_blank"><img src="img/spons/chocolate-hut.png" class="spons_imgs" alt="chocolate-hut"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.redbull.com/in-en/" target="_blank"><img src="https://image.ibb.co/mOabSb/Red_Bull_can_shot_1510394576_61_12_75_209.jpg" class="spons_imgs" alt="RedBull-Wings"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.blackfigtech.com/" target="_blank"><img src="img/spons/black-fig-tech.png" class="spons_imgs" alt="chocolate-hut"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+
+                    </div>
+                  </div>
+                  <div id="partner" class="spons_type">
+                    
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.redfmindia.in/hyderabad" target="_blank"><img src="img/spons/redfm.jpg" alt="redFM Bajate Raho - Radio Partner" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Radio Partner</p>
+                        
+                    </div>
+                    
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.fashionlady.in/" target="_blank"><img src="img/spons/fashion-lady.png" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Online Publicity Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://vshoot.com/" target="_blank"><img src="img/spons/VShoot.jpg" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Production Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://facebook.com/tdbhyd" target="_blank"><img src="img/spons/the-dessert-box.png" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Dessert Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.stumagz.com/" target="_blank"><img src="img/spons/stumagz.png" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Ticketing Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.ixigo.com/" target="_blank"><img src="img/spons/ixigo.jpg" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Travel Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.saibalajidigitals.com/" target="_blank"><img src="img/spons/SBD.png" class="spons_imgs"></a>
+                        </div>
+                        <p class="spons_type_text">Printing Partner</p>
+                        
+                    </div>
+                  </div> 
+                  <div id="community-spons" class="spons_type">
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.colaborate.in/" target="_blank"><img src="img/spons/clo-work.png" class="spons_imgs" alt="CLO Work"></a>
+                        </div>
+                        <p class="spons_type_text">Community Partner</p>
+                        
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="https://www.travelur.com/" target="_blank"><img src="img/spons/travel-ur.png" class="spons_imgs" alt="Travel UR"></a>
+                        </div>
+                        <p class="spons_type_text">Community Partner</p>
+                        
+                    </div>
+                    <!-- <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.citigroup.com/" target="_blank"><img src="img/spons/citi-group.png" class="spons_imgs" alt="Citi Group"></a>
+                        </div>
+                        <p class="spons_type_text">Community Partner</p>
+
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://entodpharma.com/" target="_blank"><img src="img/spons/eiosys-entod.png" class="spons_imgs" alt="Entod Pharmaceuticals"></a>
+                        </div>
+                        <p class="spons_type_text">Community Partner</p>
+
+                    </div>
+                    <div class="sponsors_flex_item">
+                        <div class="spons_img">
+                            <a href="http://www.chocolatehut.in/" target="_blank"><img src="img/spons/chocolate-hut.png" class="spons_imgs" alt="chocolate-hut"></a>
+                        </div>
+                        <p class="spons_type_text">Associate Sponsor</p>
+
+                    </div> -->
+                  </div>
+              </div>
+          </section>
+</div>
+<script src="js/spons.js"></script>
+<script src="js/scrollview.js"></script>
+<script src="js/smoothscroll.js"></script>
+</body>
+</html>        
